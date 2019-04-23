@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="8dp"
+
+        tools:context=".MoveActivity">
+
+    <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/tv_fotoku"
+            android:src="@drawable/lis"
+            android:layout_gravity="center"/>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tvnamaku"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:text="NAMA: Falizda Hakimah"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tvalamat"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:text="ALAMAT: Ds. Kebonharjo Rt.001 Rw.007 Kec. Patebon Kab. Kendal "/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tvemail"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:text="E-mail : hakimahfalizda@gmail.com"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tvmotto"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:text=" Sederhanalah"/>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+</LinearLayout>

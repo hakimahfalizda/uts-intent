@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">moviewithdata</string>
+    <string name="this_is_moveactivity">rum</string>
+    <string name="move_activity">Tentang saya</string>
+    <string name="move_with_data">Silahkan Foto</string>
+    <string name="dial_number">Telfon sini</string>
+</resources>
